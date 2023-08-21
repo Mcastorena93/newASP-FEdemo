@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CityInfo.API.Models;
+using Microsoft.AspNetCore.Mvc;
 using System.Reflection.Metadata.Ecma335;
+using System.Security.Cryptography.X509Certificates;
 
 namespace CityInfo.API.Controllers
 {
@@ -8,16 +10,24 @@ namespace CityInfo.API.Controllers
     public class CitiesController : ControllerBase
     {
         [HttpGet]
-        public JsonResult GetCities()
+        public ActionResult<IEnumerable<CityDto>> GetCities()
         {
-            return new JsonResult(CitiesDataStore.Current.Cities);
+            return Ok(CitiesDataStore.Current.Cities);
         }
 
         [HttpGet("{id}")]
-        public JsonResult GetCity(int id)
+        public ActionResult<CityDto> GetCity(int id)
         {
-            return new JsonResult(
-                CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == id));
+            var cityToReturn = CitiesDataStore.Current.Cities
+                .FirstOrDefault(c => c.Id == id);
+
+            if(cityToReturn == null) 
+            {
+                return NotFound();
+            }
+            
+            return Ok(cityToReturn);
+
         }
     }
 }
