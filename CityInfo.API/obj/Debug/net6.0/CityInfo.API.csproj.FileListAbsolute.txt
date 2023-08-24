@@ -30,3 +30,7 @@ C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\obj\Debug\net6.0\refint\CityI
 C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\obj\Debug\net6.0\CityInfo.API.pdb
 C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\obj\Debug\net6.0\CityInfo.API.genruntimeconfig.cache
 C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\obj\Debug\net6.0\ref\CityInfo.API.dll
+C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
