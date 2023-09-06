@@ -1,0 +1,52 @@
+2023-09-06 17:57:57.977 -04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-09-06 17:57:58.086 -04:00 [DBG] Hosting starting
+2023-09-06 17:57:58.233 -04:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D2E1573A87D714DCE27FF11D6D436AC64060D6C7)
+2023-09-06 17:57:58.261 -04:00 [INF] Now listening on: https://localhost:7240
+2023-09-06 17:57:58.268 -04:00 [INF] Now listening on: http://localhost:5093
+2023-09-06 17:57:58.269 -04:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-09-06 17:57:58.269 -04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-09-06 17:57:58.270 -04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-09-06 17:57:58.271 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-06 17:57:58.272 -04:00 [INF] Hosting environment: Development
+2023-09-06 17:57:58.273 -04:00 [INF] Content root path: C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\
+2023-09-06 17:57:58.273 -04:00 [DBG] Hosting started
+2023-09-06 17:57:58.280 -04:00 [DBG] Connection id "0HMTF4HAFVBPD" accepted.
+2023-09-06 17:57:58.280 -04:00 [DBG] Connection id "0HMTF4HAFVBPC" accepted.
+2023-09-06 17:57:58.282 -04:00 [DBG] Connection id "0HMTF4HAFVBPD" started.
+2023-09-06 17:57:58.282 -04:00 [DBG] Connection id "0HMTF4HAFVBPC" started.
+2023-09-06 17:57:58.310 -04:00 [DBG] Connection id "0HMTF4HAFVBPD" received FIN.
+2023-09-06 17:57:58.310 -04:00 [DBG] Connection id "0HMTF4HAFVBPC" received FIN.
+2023-09-06 17:57:58.339 -04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-06 17:57:58.339 -04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-06 17:57:58.455 -04:00 [DBG] Connection id "0HMTF4HAFVBPC" stopped.
+2023-09-06 17:57:58.455 -04:00 [DBG] Connection id "0HMTF4HAFVBPD" stopped.
+2023-09-06 17:57:58.458 -04:00 [DBG] Connection id "0HMTF4HAFVBPC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-06 17:57:58.458 -04:00 [DBG] Connection id "0HMTF4HAFVBPD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-06 17:57:58.638 -04:00 [DBG] Connection id "0HMTF4HAFVBPE" accepted.
+2023-09-06 17:57:58.639 -04:00 [DBG] Connection id "0HMTF4HAFVBPE" started.
+2023-09-06 17:57:58.681 -04:00 [DBG] Connection 0HMTF4HAFVBPE established using the following protocol: "Tls12"
+2023-09-06 17:57:58.722 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7240/swagger/index.html - -
+2023-09-06 17:57:58.748 -04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-09-06 17:57:58.766 -04:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-09-06 17:57:58.767 -04:00 [DBG] Request did not match any endpoints
+2023-09-06 17:57:58.936 -04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-09-06 17:57:59.039 -04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-09-06 17:57:59.045 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7240/swagger/index.html - - - 200 - text/html;charset=utf-8 326.3420ms
+2023-09-06 17:57:59.076 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7240/_vs/browserLink - -
+2023-09-06 17:57:59.076 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7240/_framework/aspnetcore-browser-refresh.js - -
+2023-09-06 17:57:59.090 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7240/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 13.9193ms
+2023-09-06 17:57:59.124 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7240/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.2207ms
+2023-09-06 17:57:59.351 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7240/swagger/v1/swagger.json - -
+2023-09-06 17:57:59.352 -04:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-06 17:57:59.353 -04:00 [DBG] Request did not match any endpoints
+2023-09-06 17:57:59.496 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7240/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 145.2598ms
