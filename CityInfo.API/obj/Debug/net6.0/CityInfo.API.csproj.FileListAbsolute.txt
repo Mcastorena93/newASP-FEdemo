@@ -57,3 +57,6 @@ C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\bin\Debug\net6.0\Serilog.Sink
 C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\bin\Debug\net6.0\appsettings.Production.json
+C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\obj\Debug\net6.0\CityInfo.API.Properties.Resources.resources
+C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\obj\Debug\net6.0\CityInfo.API.csproj.GenerateResource.cache
