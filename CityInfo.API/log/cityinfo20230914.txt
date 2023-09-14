@@ -1,0 +1,202 @@
+2023-09-14 14:46:57.403 -04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-14 14:51:18.616 -04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-14 14:53:07.294 -04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-14 14:53:07.670 -04:00 [INF] Entity Framework Core 6.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-09-14 14:53:07.743 -04:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-09-14 14:53:07.745 -04:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-09-14 14:53:07.795 -04:00 [DBG] 'CityInfoContext' disposed.
+2023-09-14 14:58:25.540 -04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-14 14:58:25.895 -04:00 [INF] Entity Framework Core 6.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-09-14 14:58:25.994 -04:00 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2023-09-14 14:58:25.999 -04:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 14:58:26.006 -04:00 [DBG] An error occurred using the connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 14:58:26.007 -04:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 14:58:26.007 -04:00 [DBG] An error occurred using the connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 14:58:26.007 -04:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 14:58:26.012 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\CityInfo.db'.
+2023-09-14 14:58:26.018 -04:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-14 14:58:26.023 -04:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2023-09-14 14:58:26.028 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2023-09-14 14:58:26.041 -04:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2023-09-14 14:58:26.043 -04:00 [DBG] Closing connection to database 'main' on server 'C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\CityInfo.db'.
+2023-09-14 14:58:26.045 -04:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 14:58:26.094 -04:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-09-14 14:58:26.096 -04:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-09-14 14:58:26.113 -04:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-14 14:58:26.113 -04:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-09-14 14:58:26.113 -04:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 14:58:26.113 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\CityInfo.db'.
+2023-09-14 14:58:26.113 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2023-09-14 14:58:26.117 -04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2023-09-14 14:58:26.117 -04:00 [DBG] Closing connection to database 'main' on server 'C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\CityInfo.db'.
+2023-09-14 14:58:26.117 -04:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 14:58:26.117 -04:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 14:58:26.118 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\CityInfo.db'.
+2023-09-14 14:58:26.121 -04:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-09-14 14:58:26.122 -04:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-09-14 14:58:26.122 -04:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 14:58:26.122 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\CityInfo.db'.
+2023-09-14 14:58:26.122 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-09-14 14:58:26.123 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-09-14 14:58:26.123 -04:00 [DBG] Closing connection to database 'main' on server 'C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\CityInfo.db'.
+2023-09-14 14:58:26.123 -04:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 14:58:26.124 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-14 14:58:26.124 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-14 14:58:26.124 -04:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 14:58:26.124 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\CityInfo.db'.
+2023-09-14 14:58:26.125 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-09-14 14:58:26.125 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-09-14 14:58:26.126 -04:00 [DBG] A data reader was disposed.
+2023-09-14 14:58:26.126 -04:00 [DBG] Closing connection to database 'main' on server 'C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\CityInfo.db'.
+2023-09-14 14:58:26.126 -04:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 14:58:26.133 -04:00 [INF] Applying migration '20230914185307_CityInfoDbInitionalMigration'.
+2023-09-14 14:58:26.163 -04:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 14:58:26.163 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\CityInfo.db'.
+2023-09-14 14:58:26.163 -04:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-09-14 14:58:26.165 -04:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-09-14 14:58:26.165 -04:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-14 14:58:26.165 -04:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-09-14 14:58:26.166 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Cities" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NOT NULL
+);
+2023-09-14 14:58:26.166 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Cities" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NOT NULL
+);
+2023-09-14 14:58:26.166 -04:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-14 14:58:26.166 -04:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-09-14 14:58:26.166 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointOfInterests" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointOfInterests" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "CityId" INTEGER NULL,
+    CONSTRAINT "FK_PointOfInterests_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("Id")
+);
+2023-09-14 14:58:26.166 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointOfInterests" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointOfInterests" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "CityId" INTEGER NULL,
+    CONSTRAINT "FK_PointOfInterests_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("Id")
+);
+2023-09-14 14:58:26.166 -04:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-14 14:58:26.166 -04:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-09-14 14:58:26.166 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointOfInterests_CityId" ON "PointOfInterests" ("CityId");
+2023-09-14 14:58:26.166 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointOfInterests_CityId" ON "PointOfInterests" ("CityId");
+2023-09-14 14:58:26.166 -04:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-14 14:58:26.166 -04:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-09-14 14:58:26.166 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230914185307_CityInfoDbInitionalMigration', '6.0.0');
+2023-09-14 14:58:26.862 -04:00 [INF] Executed DbCommand (696ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230914185307_CityInfoDbInitionalMigration', '6.0.0');
+2023-09-14 14:58:26.863 -04:00 [DBG] Committing transaction.
+2023-09-14 14:58:26.864 -04:00 [DBG] Committed transaction.
+2023-09-14 14:58:26.865 -04:00 [DBG] Disposing transaction.
+2023-09-14 14:58:26.865 -04:00 [DBG] Closing connection to database 'main' on server 'C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\CityInfo.db'.
+2023-09-14 14:58:26.865 -04:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 14:58:26.866 -04:00 [DBG] 'CityInfoContext' disposed.
+2023-09-14 15:18:01.691 -04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-14 15:18:02.063 -04:00 [INF] Entity Framework Core 6.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-09-14 15:18:02.146 -04:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-09-14 15:18:02.147 -04:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-09-14 15:18:02.148 -04:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-09-14 15:18:02.148 -04:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-09-14 15:18:02.152 -04:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-09-14 15:18:02.152 -04:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-09-14 15:18:02.152 -04:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-09-14 15:18:02.152 -04:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-09-14 15:18:02.194 -04:00 [DBG] 'CityInfoContext' disposed.
+2023-09-14 15:18:20.777 -04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-14 15:18:21.151 -04:00 [INF] Entity Framework Core 6.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-09-14 15:18:21.179 -04:00 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2023-09-14 15:18:21.182 -04:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 15:18:21.190 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\CityInfo.db'.
+2023-09-14 15:18:21.199 -04:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-09-14 15:18:21.203 -04:00 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2023-09-14 15:18:21.203 -04:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 15:18:21.205 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\CityInfo.db'.
+2023-09-14 15:18:21.209 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-09-14 15:18:21.220 -04:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-09-14 15:18:21.221 -04:00 [DBG] Closing connection to database 'main' on server 'C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\CityInfo.db'.
+2023-09-14 15:18:21.222 -04:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 15:18:21.223 -04:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 15:18:21.223 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\CityInfo.db'.
+2023-09-14 15:18:21.223 -04:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-09-14 15:18:21.223 -04:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-09-14 15:18:21.223 -04:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 15:18:21.223 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\CityInfo.db'.
+2023-09-14 15:18:21.223 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-09-14 15:18:21.224 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-09-14 15:18:21.224 -04:00 [DBG] Closing connection to database 'main' on server 'C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\CityInfo.db'.
+2023-09-14 15:18:21.224 -04:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 15:18:21.231 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-09-14 15:18:21.231 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-09-14 15:18:21.231 -04:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 15:18:21.231 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\CityInfo.db'.
+2023-09-14 15:18:21.231 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-09-14 15:18:21.231 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-09-14 15:18:21.233 -04:00 [DBG] A data reader was disposed.
+2023-09-14 15:18:21.233 -04:00 [DBG] Closing connection to database 'main' on server 'C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\CityInfo.db'.
+2023-09-14 15:18:21.233 -04:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 15:18:21.239 -04:00 [INF] Applying migration '20230914191802_CityInfoDbAddPointOfInterestDescription'.
+2023-09-14 15:18:21.279 -04:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 15:18:21.279 -04:00 [DBG] Opened connection to database 'main' on server 'C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\CityInfo.db'.
+2023-09-14 15:18:21.280 -04:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-09-14 15:18:21.282 -04:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-09-14 15:18:21.282 -04:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-14 15:18:21.282 -04:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-09-14 15:18:21.283 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PointOfInterests" ADD "Description" TEXT NOT NULL DEFAULT '';
+2023-09-14 15:18:21.283 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PointOfInterests" ADD "Description" TEXT NOT NULL DEFAULT '';
+2023-09-14 15:18:21.283 -04:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-14 15:18:21.283 -04:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-09-14 15:18:21.283 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230914191802_CityInfoDbAddPointOfInterestDescription', '6.0.0');
+2023-09-14 15:18:21.292 -04:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230914191802_CityInfoDbAddPointOfInterestDescription', '6.0.0');
+2023-09-14 15:18:21.293 -04:00 [DBG] Committing transaction.
+2023-09-14 15:18:21.295 -04:00 [DBG] Committed transaction.
+2023-09-14 15:18:21.296 -04:00 [DBG] Disposing transaction.
+2023-09-14 15:18:21.296 -04:00 [DBG] Closing connection to database 'main' on server 'C:\Users\MCCM\source\repos\ASP-FEdemo\CityInfo.API\CityInfo.db'.
+2023-09-14 15:18:21.296 -04:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-09-14 15:18:21.297 -04:00 [DBG] 'CityInfoContext' disposed.
