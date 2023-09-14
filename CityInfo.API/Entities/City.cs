@@ -8,7 +8,11 @@ namespace CityInfo.API.Entities
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
+        [Required]
+        [MaxLength]
         public string Name { get; set; }
+
+        [MaxLength(200)]
         public string Description { get; set; }
 
         public ICollection<PointOfInterest> PointOfInterests { get; set; } = new List<PointOfInterest>();
