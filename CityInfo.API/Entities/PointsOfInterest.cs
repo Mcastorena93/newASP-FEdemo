@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace CityInfo.API.Entities
 {
-    public class PointOfInterest
+    public class PointsOfInterest
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -19,7 +19,7 @@ namespace CityInfo.API.Entities
         public City? City { get; set; }
         public int CityId { get; set; }
 
-        public PointOfInterest(string name)
+        public PointsOfInterest(string name)
         {
             Name = name;    
         }
