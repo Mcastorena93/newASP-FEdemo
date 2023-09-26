@@ -10,7 +10,7 @@ namespace CityInfo.API.DbContexts
     {
         public DbSet<City> Cities { get; set; } = null!;
 
-        public DbSet<PointsOfInterest> PointsOfInterests { get; set; } = null!;
+        public DbSet<PointsOfInterest> PointsOfInterest { get; set; } = null!;
 
         public CityInfoContext(DbContextOptions<CityInfoContext> options) : base(options)
         {
