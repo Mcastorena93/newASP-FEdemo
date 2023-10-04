@@ -10,9 +10,10 @@ namespace CityInfo.API.DbContexts
     {
         public DbSet<City> Cities { get; set; } = null!;
 
-        public DbSet<PointsOfInterest> PointsOfInterest { get; set; } = null!;
+        public DbSet<PointOfInterest> PointsOfInterest { get; set; } = null!;
 
-        public CityInfoContext(DbContextOptions<CityInfoContext> options) : base(options)
+        public CityInfoContext(DbContextOptions<CityInfoContext> options) 
+            : base(options)
         {
 
         }
@@ -36,37 +37,37 @@ namespace CityInfo.API.DbContexts
                     Description = "The one with that big tower."
                 });
 
-            modelBuilder.Entity<PointsOfInterest>().HasData(
-                new PointsOfInterest("Central Park")
+            modelBuilder.Entity<PointOfInterest>().HasData(
+                new PointOfInterest("Central Park")
                 {
                     Id = 1,
                     CityId = 1,
                     Description = "The most visited urban park in the United States."
                 },
-                new PointsOfInterest("Empire State Building")
+                new PointOfInterest("Empire State Building")
                 {
                     Id = 2,
                     CityId = 1,
                     Description = "A 102-story skyscrapper located in Manhattan"
                 },
-                new PointsOfInterest("Cathedral of our lady")
+                new PointOfInterest("Cathedral of our lady")
                 {
                     Id = 3,
                     CityId = 2,
                     Description = "A gothic style cathedral, conceived by architechts Jan and Piete" 
                 },
-                new PointsOfInterest("Antwerp")
+                new PointOfInterest("Antwerp")
                 {
                     Id = 4,
                     CityId = 2,
                     Description = "The finest example of railway architecture in Belgium"
                 },
-                new PointsOfInterest("Eiffel Tower")
+                new PointOfInterest("Eiffel Tower")
                 {
                     Id = 5,
                     CityId = 3,    
                     Description = "An Iron lattice tower on the Champs de Mars" },
-                new PointsOfInterest("The Louvre")
+                new PointOfInterest("The Louvre")
                 {
                     Id = 6,
                     CityId = 3,

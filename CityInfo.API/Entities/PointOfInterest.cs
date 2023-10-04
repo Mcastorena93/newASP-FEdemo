@@ -3,11 +3,12 @@ using System.ComponentModel.DataAnnotations;
 
 namespace CityInfo.API.Entities
 {
-    public class PointsOfInterest
+    public class PointOfInterest
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
+
         [Required]
         [MaxLength(50)]
         public string Name { get; set; }
@@ -19,7 +20,9 @@ namespace CityInfo.API.Entities
         public City? City { get; set; }
         public int CityId { get; set; }
 
-        public PointsOfInterest(string name)
+#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
+        public PointOfInterest(string name)
+#pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
         {
             Name = name;    
         }

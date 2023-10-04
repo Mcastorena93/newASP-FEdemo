@@ -8,13 +8,13 @@ namespace CityInfo.API.Controllers
 {
     [Route("api/cities/{cityId}/pointsofinterest")]
     [ApiController]
-    public class PointsOfInterestController : ControllerBase
+    public class PointOfInterestController : ControllerBase
     {
-        private readonly ILogger<PointsOfInterestController> _logger;
+        private readonly ILogger<PointOfInterestController> _logger;
         private readonly IMailService _mailService;
         private readonly CitiesDataStore _citiesDataStore;
 
-        public PointsOfInterestController(ILogger<PointsOfInterestController> logger,
+        public PointOfInterestController(ILogger<PointOfInterestController> logger,
             IMailService mailService, CitiesDataStore citiesDataStore) 
         {
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));    

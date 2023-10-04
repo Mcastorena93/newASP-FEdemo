@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "LfH74m2phKINyFPkT3pC+kbOvFAlBqN6/Iyc0tOhBVdtTuLXIxEKxeVlPBhaZ3YklMKKaa/QIBs7FWBSVABgXw==",
+  "dgSpecHash": "5xYgZTDwt6Ry2XKh1edw2tNRQ7NnzANIDLgvH6Dy1Z0Y3kP0pwlpQxNpGOrQ0P0isrZQMZFOYmUN/U4FsLWZ3Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\MCCM\\source\\repos\\ASP-FEdemo\\CityInfo.API\\CityInfo.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\MCCM\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\MCCM\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\MCCM\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\MCCM\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.10\\microsoft.aspnetcore.jsonpatch.7.0.10.nupkg.sha512",
     "C:\\Users\\MCCM\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.21\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.21.nupkg.sha512",

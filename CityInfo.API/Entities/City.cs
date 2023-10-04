@@ -15,10 +15,13 @@ namespace CityInfo.API.Entities
         [MaxLength(200)]
         public string Description { get; set; }
 
-        public ICollection<PointsOfInterest> PointsOfInterests { get; set; } = new List<PointsOfInterest>();
+        public ICollection<PointOfInterest> PointsOfInterest { get; set; } 
+            = new List<PointOfInterest>();
 
-        public City(string name) 
-        
+#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
+        public City(string name)
+#pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
+
         { 
             Name = name; 
         }
