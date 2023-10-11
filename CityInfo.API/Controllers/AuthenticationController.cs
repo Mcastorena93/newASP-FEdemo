@@ -108,9 +108,9 @@ namespace CityInfo.API.Controllers
                 return new CityInfoUser(
                     1,
                     userName ?? "",
-                    "firstName",
-                    "Lastname",
-                    "Atlanta");
+                    "Kevin",
+                    "Dockx",
+                    "Antwerp");
             }
     }
 }

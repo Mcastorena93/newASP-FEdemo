@@ -5,10 +5,12 @@ using System.Security.Cryptography.X509Certificates;
 using CityInfo.API.Services;
 using AutoMapper;
 using System.Text.Json;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CityInfo.API.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("api/cities")]
     public class CitiesController : ControllerBase
     {
